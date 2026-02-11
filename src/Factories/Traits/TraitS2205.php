@@ -677,8 +677,8 @@ trait TraitS2205
                 $this->dom->addChild(
                     $dependente,
                     "incTrab",
-                    $dep->inctrab,
-                    true
+                    !empty($dep->inctrab) ? $dep->inctrab : null,
+                    false
                 );
                 $this->dom->addChild(
                     $dependente,
