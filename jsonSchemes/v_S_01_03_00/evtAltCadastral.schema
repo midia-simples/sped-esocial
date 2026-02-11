@@ -272,8 +272,8 @@
                         "pattern": "^(S|N)$"
                     },
                     "inctrab": {
-                        "required": true,
-                        "type": "string",
+                        "required": false,
+                        "type": ["string","null"],
                         "pattern": "^(S|N)$"
                     },
                     "descrdep": {
